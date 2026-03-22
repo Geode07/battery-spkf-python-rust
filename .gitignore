@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Results
+results/
+
+# Rust
+target/
+*.so
+*.pyd
+*.dll
+
+# Maturin build artifacts
+*.whl
+build/
+
+# OS
+.DS_Store
+Thumbs.db

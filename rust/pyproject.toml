@@ -1,0 +1,12 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "spkf_rust"
+version = "0.1.0"
+description = "Rust-based SPKF engine for battery SOC estimation"
+requires-python = ">=3.8"
+
+[tool.maturin]
+bindings = "pyo3"

@@ -102,3 +102,5 @@ This project includes a Rust-based compute engine exposed to Python using PyO3 a
 - Python 3.8+
 - Rust toolchain
 - maturin
+
+![Result](images/test_spkf_soc_voltage.png)
